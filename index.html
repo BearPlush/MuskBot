@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en&">
 
 <head>
   <!-- En-tête du site-->
   <link rel="icon" href="MuskBot_logo.png">
   <meta charset="utf-8">
-  <title>MuskBot</title><!-- Nom du projet -->
+  <title>MuskBot</title>
+  <description>discord bot invite join musk muskbot game</description><!-- Nom du projet -->
   <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Lien vers le fichier CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
+
+
 <body>
-
-
   <div class="container">
     <div class="bubbles">
       <span style="--i:11"></span>
@@ -58,13 +61,13 @@
   </div>
 
   <header>
-    <img src="MuskBot_logo.png" class="logopng">
+    <img src="MuskBot_logo.png" class="logopng" href="#home" id="home">
     <a href="#" class="logo">muskbot</a>
     <ul>
-      <li><a href="#">HOME</a></li>
+      <li><a href="#home">HOME</a></li>
       <li><a href="#about">ABOUT</a></li>
-      <li><a href="#">OUR WORK</a></li>
-      <li><a href="#">TEAM</a></li>
+      <li><a href="#work">OUR WORK</a></li>
+      <li><a href="#team">TEAM</a></li>
     </ul>
   </header>
 
@@ -72,31 +75,552 @@
   <span class="desc">The World First AFPA Bot World Ever Made</span>
 
 
-  <div class="about" href="#about">
-    <div class="carre">
-      <div class="content">
-        <h1>About</h1><br><hr>
-        <h3>Our team work on this bot for her diplom so this bot if for training, we expect you are going to enjoy the
-          features on this bot ! Enjoy !</h3>
-      </div>
-    </div>
-    <div class="carre">
-      <div class="content">
-        <h1>Our Work</h1><br><hr>
-        <img src="web_dev.jpg" class="webimg">
-        <h3>Our team work on this bot for her diplom so this bot if for training, we expect you are going to enjoy the
-          features on this bot ! Enjoy !</h3>
-      </div>
-    </div>
-    <div class="carre">
-      <div class="content">
-        <h1>Team</h1><br><hr>
-        <h3>Our team work on this bot for her diplom so this bot if for training, we expect you are going to enjoy the
-          features on this bot ! Enjoy !</h3>
-      </div>
-    </div>
-  </div>
 
+  <div class="pages">
+
+    <div class="content carre about" id="about" href="about">
+      <h1>About</h1><br>
+      <hr>
+      <br><br><br>
+      <h3>Our team work on this bot for her diplom so this bot if for
+        training, we expect you are going to enjoy the
+        features on this bot ! Enjoy !</h3>
+        <br><br><br><br>
+        <img src="logo_test.png" class="webimg">
+        <br><br><br>
+        <hr>
+    </div>
+
+    <div class="work" id="work" href="#work">
+      <div class="carre">
+        <div class="content">
+          <h1>Our Work</h1><br>
+          <hr>
+          <br><br><br>
+          <h3>our team worked on this bot with a number of constraints,
+             we had to create a bot that will have both fun and interesting functions.
+              as well as games created by us and all this in complete harmony.</h3>
+            <br><br><br>
+          <img src="web_dev.jpg" class="webimg"><br><br><br><hr><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="carre team" id="team" href="#team">
+      <div class="content">
+        <h1>Team</h1><br>
+        <hr>
+        <div class="teams">
+          <!-- Jérémy -->
+          <section class="profile">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./jeremy_pdp.png" alt="avatar-username">
+                <span class="pro-status">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Jérémy</span><span class="text-discrim">#Taupin</span>
+              </div>
+            </div>
+
+            <div class="pro-activity">
+              <div class="title-activity">
+                LISTENING TO SPOTIFY
+              </div>
+              <div class="spotify-activity">
+                <div class="playing-spotify">
+                  <img src="https://i1.sndcdn.com/artworks-dVH0EE65EwUOKdvd-NfhGug-t500x500.jpg">
+                  <div>
+                    <span class="title">Never Gonna G...</span>
+                    <span class="subtitle">Rick Astley - 1987</span>
+                  </div>
+                </div>
+                <div class="playing-bar">
+                  <div class="bar"></div>
+                  <div class="time">
+                    <div class="time-start">0:41</div>
+                    <div class="time-end">3:33</div>
+                  </div>
+                </div>
+              </div>
+              <div class="spotify-buttom">
+                <span><a target="_blank" href="https://www.youtube.com/watch?v=wpV-gGA4PSk">Conect to Spotify </a></span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol naranja">
+                    <i class="fas fa-circle"></i>
+                    <span>Tutor</span>
+                  </div>
+                  <div class="rol red">
+                    <i class="fas fa-circle"></i>
+                    <span>Guide</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>RickRoller</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Never let your pc unlocked..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Jérémy">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Ludo -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./ludo_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Ludovic</span><span class="text-discrim">#Fernandez</span>
+              </div>
+            </div>
+
+            <div class="pro-activity-playing">
+              <div class="title-activity">
+                PLAYING
+              </div>
+              <div class="spotify-activity">
+                <div class="playing-spotify">
+                  <img
+                    src="https://play-lh.googleusercontent.com/3PNx6623UxPD7-pwIgUqh2Q8yy842WPGdkVtBteOCcUzb_-f7XV0y6z1Xjt5_98awrY">
+                  <div>
+                    <span class="title">Ni No Kuni Cr...</span>
+                    <span class="subtitle">Netmarble Studio</span><br>
+                    <span class="subtitle">72h 53m 22s elapsed</span>
+                  </div>
+                </div>
+                <div class="playing-bar">
+                </div>
+              </div>
+              <div class="spotify-buttom">
+                <span>Join</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol purple">
+                    <i class="fas fa-circle"></i>
+                    <span>Game</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>TryHarder</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Haven't seen them for days..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Ludovic">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Chris -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./chris_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Christopher</span><span class="text-discrim">#Rousseau</span>
+              </div>
+            </div>
+
+            <div class="pro-activity-playing">
+              <div class="title-activity">
+                PLAYING
+              </div>
+              <div class="spotify-activity">
+                <div class="playing-spotify">
+                  <img
+                    src="https://play-lh.googleusercontent.com/3PNx6623UxPD7-pwIgUqh2Q8yy842WPGdkVtBteOCcUzb_-f7XV0y6z1Xjt5_98awrY">
+                  <div>
+                    <span class="title">Ni No Kuni Cr...</span>
+                    <span class="subtitle">Netmarble Studio</span><br>
+                    <span class="subtitle">6h 24m 12s elapsed</span>
+                  </div>
+                </div>
+                <div class="playing-bar">
+                </div>
+              </div>
+              <div class="spotify-buttom">
+                <span>Join</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol green">
+                    <i class="fas fa-circle"></i>
+                    <span>Functions</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>VapeGuy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Like smoke, he escapes from all situations..."
+                  rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Christopher">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Jules -->
+          <section class="profile-streaming">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./jules_pdp.png" alt="avatar-username">
+                <span class="pro-status-streaming">
+                  <i class="fas fa-circle green"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Jules</span><span class="text-discrim">#Bourbon</span>
+              </div>
+            </div>
+
+            <div class="pro-activity-streaming">
+              <div class="title-activity">
+                STREAMING
+              </div>
+              <div class="spotify-activity">
+                <div class="playing-spotify">
+                  <img
+                    src="twitch.png">
+                  <div>
+                    <span class="title">MY CODE IS PERFECT</span>
+                    <span class="subtitle">On Twitch.tv/Julobou </span><br>
+                    <span class="subtitle">MuskBot.html</span>
+                  </div>
+                </div>
+                <div class="playing-bar">
+                </div>
+              </div>
+              <div class="spotify-buttom">
+                <span>WATCH</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol purple">
+                    <i class="fas fa-circle"></i>
+                    <span>Game</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>TallGuy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Discreet even if you can't miss him..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Jules">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Célia -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./celia_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Célia</span><span class="text-discrim">#Zeraoulia</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol purple">
+                    <i class="fas fa-circle"></i>
+                    <span>Game</span>
+                  </div>
+                  <div class="rol yellow">
+                    <i class="fas fa-circle"></i>
+                    <span>PermGif</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Hides a lot more than you might think..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Célia">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Christophe -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./christophe_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Christophe</span><span class="text-discrim">#Boissier</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol purple">
+                    <i class="fas fa-circle"></i>
+                    <span>Game</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>GoowWork</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Hide her true strength, that true truth..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Christophe">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Mohamed -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./momo_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Mohamed</span><span class="text-discrim">#Ait Akka</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol green">
+                    <i class="fas fa-circle"></i>
+                    <span>Functions</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>GoowWork</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="You never know what he will do..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Mohamed">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Ryan -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./ryan_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Ryan</span><span class="text-discrim">#Leparq</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol green">
+                    <i class="fas fa-circle"></i>
+                    <span>Functions</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>Noice</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="a super good driver without having his license..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Ryan">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+          <!-- Yoan -->
+          <section class="profile-playing">
+            <div class="pro-header">
+              <div class="pro-avatar">
+                <img src="./yoan_pdp.png" alt="avatar-username">
+                <span class="pro-status-playing">
+                  <i class="fas fa-circle red"></i>
+                </span>
+              </div>
+              <div class="pro-username">
+                <span class="text-username">Yoan</span><span class="text-discrim">#Laplace</span>
+              </div>
+            </div>
+
+            <div class="pro-body">
+              <div class="pro-content">
+                <div class="title-body">ROLES</div>
+                <div class="roles-body">
+                  <!-- roles list -->
+                  <div class="rol black">
+                    <i class="fas fa-circle"></i>
+                    <span>Student</span>
+                  </div>
+                  <div class="rol green">
+                    <i class="fas fa-circle"></i>
+                    <span>Functions</span>
+                  </div>
+                  <div class="rol blue">
+                    <i class="fas fa-circle"></i>
+                    <span>Gay</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pro-footer">
+              <div class="content-footer">
+                <div class="title-footer">NOTE</div>
+                <input type="text" class="subtitle-footer" placeholder="Super gay..." rows="1">
+                <div class="form-footer">
+                  <input type="text" placeholder="Send message to @Yoan">
+                </div>
+                <div class="form-footer"></div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
